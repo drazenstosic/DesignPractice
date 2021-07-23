@@ -1,0 +1,62 @@
+.icon{
+    margin-right: 20px;
+
+
+&__clipboard{
+    content:url(../../assets/icons/Clipboard.svg);
+    
+}   
+
+
+&__recruitment{
+    content:url(../../assets/icons/Recruitment.svg);
+    
+}    
+
+&__bird{
+    content:url(../../assets/icons/Bird.svg);
+    
+}  
+
+&__reports{
+    content:url(../../assets/icons/Reports.svg);
+    
+}
+&__calendar{
+    content:url(../../assets/icons/Calendar.svg);
+    
+}
+&__settings{
+    content:url(../../assets/icons/Settings.svg);
+}    
+&__dashboard{
+    content:url(../../assets/icons/Dashboard.svg);
+    
+}
+&__searchIcon{
+    content:url(../../assets/icons/Search.svg);
+    
+    opacity:0.6;
+    
+}
+
+&__bell{
+    content:url(../../assets/icons/Bell.svg);
+    
+    opacity:0.6;
+    margin-left:15px;
+    
+}
+&__mail{
+    content:url(../../assets/icons/Mail.svg);
+    
+    opacity:0.6;
+    margin-left:15px;
+    
+}
+
+&--small{
+    width:25px;
+}
+
+}

@@ -1,0 +1,127 @@
+/*
+    component: grid.scss
+*/
+
+$grid-spc: 12px;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + (#{$grid-spc} * 2));
+  align-content: flex-start;
+  margin-left: -$grid-spc;
+  margin-right: -$grid-spc;
+
+  &--padd {
+    padding-left: $grid-spc;
+    padding-right: $grid-spc;
+  }
+  
+  &--adaptive {
+    & > .col {
+      display: flex;
+    }
+  }
+}
+
+.col {
+  padding-left: 12px;
+  padding-right: 12px;
+  &-3 {
+    width: 25%;
+  }
+  &-4 {
+    width: 33.33%;
+  }
+  &-6 {
+    width: 50%;
+  }
+  &-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col {
+    &-3 {
+        width: 25%;
+    }
+    &-4 {
+        width: 33.33%;
+    }
+    &-6 {
+        width: 50%;
+    }
+    &-12 {
+        width: 100%;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+    .col-sm {
+        &-3 {
+            width: 25%;
+        }
+        &-4 {
+            width: 33.33%;
+        }
+        &-6 {
+            width: 50%;
+        }
+        &-12 {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md {
+        &-3 {
+            width: 25%;
+        }
+        &-4 {
+            width: 33.33%;
+        }
+        &-6 {
+            width: 50%;
+        }
+        &-12 {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg {
+        &-3 {
+            width: 25%;
+        }
+        &-4 {
+            width: 33.33%;
+        }
+        &-6 {
+            width: 50%;
+        }
+        &-12 {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl {
+        &-3 {
+            width: 25%;
+        }
+        &-4 {
+            width: 33.33%;
+        }
+        &-6 {
+            width: 50%;
+        }
+        &-12 {
+            width: 100%;
+        }
+    }
+}

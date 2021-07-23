@@ -1,0 +1,21 @@
+
+.profile{ 
+
+  display: inline-flex;
+  align-items: center;
+
+    &__name{
+        font-family:Rubik;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    &__header{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 12px;      
+    }
+
+
+}

@@ -1,0 +1,20 @@
+@import "../base/typography.scss";
+
+.layout {
+    display: flex;
+    height: 100vh;
+    background-color: grey;
+    
+    &__aside {
+        width: 300px;
+        background-color: #6263d5;
+
+    }  
+    
+    &__main {
+        background-color: #eff1ff;
+        width: calc(100% - 300px);
+        height: 100vh;
+        overflow-y: auto;
+    }
+}

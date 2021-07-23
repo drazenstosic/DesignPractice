@@ -1,0 +1,26 @@
+@import "../base/base.scss";
+
+.illustration{
+
+
+    &__aside{    
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 50px;
+        height: 90%;
+        
+    }
+
+
+    &__main{
+        width: 250px;
+        float: right;
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+
+}
+
+
+
