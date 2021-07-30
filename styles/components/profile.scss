@@ -1,21 +1,20 @@
-
-.profile{ 
-
+.profile {
   display: inline-flex;
   align-items: center;
+  font-family: Noto Sans JP;
+  &__name {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    &__name{
-        font-family:Rubik;
-        padding-left: 20px;
-        padding-right: 20px;
+  &__image {
+    object-fit: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+    &--secondary {
+      border: 1px solid black;
     }
-
-    &__header{
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
-        margin-left: 12px;      
-    }
-
-
+  }
 }

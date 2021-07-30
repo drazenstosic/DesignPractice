@@ -1,31 +1,28 @@
 @import "../base/base.scss";
 
-.header{       
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 40px;
-        padding-top: 30px;
-        padding-right: 40px; 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
 
-    &__title{
-        font-family:Noto Sans JP;
-        font-weight: bold;
-        font-size:25px;
-        color:black;
-    }
+  &__title {
+    font-family: Noto Sans JP;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+  }
 
-    &__alignment{
-        display: flex;
-        align-items: end;
-    }
+  &__alignment {
+    display: flex;
+    align-items: end;
+  }
 
-    &__content{
-        display: inline-flex;
-        padding-top: 20px;
-        padding-right: 50px;
-        margin-right: 32px;
-    }
-
+  &__actions {
+    display: inline-flex;
+    padding-top: 20px;
+    padding-right: 60px;
+  }
 }
-

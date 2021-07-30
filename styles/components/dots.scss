@@ -1,0 +1,19 @@
+.dots {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+
+  &--red {
+    background-color: #f65f46;
+  }
+
+  &--orange {
+    background-color: #ed970d;
+  }
+  &--purple {
+    background-color: #af98d1;
+  }
+  &--green {
+    background-color: #53be6c;
+  }
+}

@@ -1,0 +1,123 @@
+.rdrMonthAndYearWrapper {
+  display: none !important;
+}
+
+.rdrWeekDay {
+  font-family: Noto Sans JP !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.rdrMonth {
+  padding: 0 0.833em 1.666em 0.833em;
+  width: 34.667em;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.rdrCalendarWrapper {
+  border-radius: 10px !important;
+  margin-top: 12px !important;
+}
+
+.rdrDateDisplayWrapper {
+  background-color: #eff1ff !important;
+}
+
+.rdrDateDisplayItemActive input {
+  color: #6263d5 !important;
+  background-color: #dadcf9 !important;
+}
+
+.rdrDateDisplayItemActive {
+  border-color: #dadcf9 !important;
+}
+.rdrDateDisplayItem {
+  background-color: #dadcf9 !important;
+}
+
+.rdrDateDisplayItem input {
+  text-align: left !important;
+}
+
+.rdrDateDisplay {
+  width: 98% !important;
+}
+
+.rdrEndEdge {
+  margin-left: auto;
+  margin-right: auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.rdrDayNumber {
+  outline: 0;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  top: 5px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rdrDay {
+  box-sizing: inherit;
+  width: calc(100% / 7);
+  position: relative;
+  font: inherit;
+  cursor: pointer;
+  user-select: none;
+  border: 0;
+  padding: 0;
+  line-height: 3em;
+  height: 3em;
+  text-align: center;
+}
+.rdrStartEdge {
+  background-color: #6263d5 !important;
+  width: 26px !important;
+  height: 26px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-radius: 50% !important;
+}
+
+.rdrInRange {
+  background-color: white !important;
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) span {
+  color: black !important;
+}
+
+.rdrEndEdge ~ .rdrDayNumber span {
+  color: white !important;
+}
+.rdrStartEdge ~ .rdrDayNumber span {
+  color: white !important;
+}
+
+.rdrMonths ~ .rdrMonthsVertical {
+  background-color: white !important;
+  border-radius: 25px !important;
+}
+
+.rdrCalendarWrapper {
+  box-sizing: border-box !important;
+  /* background: #ffffff; */
+  display: inline-flex !important;
+  flex-direction: column !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  border-radius: 127px !important;
+  margin-top: 12px !important;
+}

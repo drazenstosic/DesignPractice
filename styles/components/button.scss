@@ -1,37 +1,22 @@
-.button{
+.button {
+  font-family: Noto Sans JP;
+  font-weight: lighter;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
 
-    font-family:Montserrat;
+  &--secondary {
+    display: block;
+    width: 15%;
+    background-color: #ed960b;
+    border-radius: 10px;
+  }
 
-    &__card{
-        padding-top: 7px;
-        display: block;
-        width: 100px;
-        background-color: #ed960b;
-        border-radius: 10px;
-        margin-left: 12px;
-        margin-top: 24px;
-        height: 38px;
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        
-
-    }
-
-    &__workers{
-        padding-top: 12px;
-        padding-left: 20px;
-        padding-bottom: 10px;
-        align-items: center;
-        display: inline-flex;
-        width: 100px;
-        background-color: #6263d5;
-        border-radius: 21px;
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        
-
-    }
-
+  &--primary {
+    display: inline-flex;
+    width: 80px;
+    background-color: #6263d5;
+    border-radius: 21px;
+  }
 }
