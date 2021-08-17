@@ -1,31 +1,40 @@
 import MrSmith from "../assets/photos/MrSmith.jpg";
 const Profile = () => {
   return (
-    <div className="card card--secondary mt-6">
-      <div className="user__container mt-4">
-        <div className="user__imagebox">
-          <img className="user__image" src={MrSmith} alt="Mr Smith" />
+    <div className="user mt-6">
+      <div>
+        <div className="user__container">
+          <img
+            className="profile__image profile__image--squared"
+            src={MrSmith}
+            alt="Mr Smith"
+          />
         </div>
 
-        <div className="user__title">Mr Smith</div>
-        <div className="user__subtitle">Sr.HR Manager</div>
+        <div className="user__text user__text--primary">Mr Smith</div>
+        <div className="user__text user__text--secondary">Sr.HR Manager</div>
         <div className="user__icons mt-2">
           <i className="icon icon--base icon__phone" />
           <i className="icon icon--base icon__workerMail " />
           <i className="icon icon--base icon__message" />
         </div>
       </div>
-      <div className="user__company">
-        <div className=" wuser__company--title mt-2">Company</div>
-        <div className="user__company--name mt-2">FoxHr Pvt. Ltd.</div>
-      </div>
-      <div className="user__joining mt-1">
-        <div className="user__joining--title">Joining Date</div>
-        <div className="wuser__joining--name">08/08/2020</div>
-      </div>
-      <div className="user__projects mt-1">
-        <div className="user__projects--title">Projects</div>
-        <div className="user__projects--name">34 Active</div>
+      <div>
+        <div className="user__border"></div>
+        <div className="user__info">
+          <span className="user__text user__text--primary">Company:</span>
+          <span className="user__text user__text--secondary">
+            FoxHr Pvt. Ltd
+          </span>
+        </div>
+        <div className="user__info">
+          <span className="user__text user__text--primary">Joining Date:</span>
+          <span className="user__text user__text--secondary">08/08/2020</span>
+        </div>
+        <div className="user__info">
+          <span className="user__text user__text--primary">Projects:</span>
+          <span className="user__text user__text--secondary">34 Active</span>
+        </div>
       </div>
     </div>
   );

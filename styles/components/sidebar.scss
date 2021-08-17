@@ -47,9 +47,9 @@
       background-color: #fff;
       opacity: 1;
       border-radius: 10px;
-      width: 250px;
       margin-left: 4px;
-
+      align-items: center;
+      display: flex;
       .sidebar__link__calendar {
         content: url(../../assets/icons/CalendarHover.svg);
         width: 20px;

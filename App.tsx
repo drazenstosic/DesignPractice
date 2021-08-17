@@ -1,10 +1,8 @@
 import "./styles/App.scss";
 import { ReactComponent as SidebarIllustration } from "./assets/illustrations/Sidebar-illustration.svg";
-
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { useState } from "react";
-
 import Header from "./components/Header";
 import Calendar from "./components/Calendar";
 import Profile from "./components/Profile";
@@ -49,7 +47,7 @@ function App() {
               Use our premium features now!
               <i className="ml-4 icon icon-small icon__enter" />
             </div>
-            <div className="illustration__aside mt-8">
+            <div className="illustration__aside">
               <SidebarIllustration />
             </div>
           </div>

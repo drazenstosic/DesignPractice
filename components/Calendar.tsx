@@ -13,9 +13,9 @@ const Calendar = () => {
     <div className="calendar">
       <div className="calendar__header">
         <div className="calendar__title">October, 2020</div>
-        <div className="icon__arrows">
+        <div>
           <i className="icon icon__leftarrow mr-2" />
-          <i className="icon icon__rightarrow ml-2 mr-8" />
+          <i className="icon icon__rightarrow ml-2 " />
         </div>
       </div>
       <div>

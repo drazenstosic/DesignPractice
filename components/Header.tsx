@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header">
       <div className="header__title">Dashboard</div>
       <div className="header__alignment">
-        <div className="header__actions mr-7">
+        <div className="header__actions">
           <i className="icon icon__searchIcon icon--small" />
           <i className="icon icon__mail icon--small ml-7" />
           <i className="icon icon__bell icon--small ml-7" />
