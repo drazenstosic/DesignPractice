@@ -1,0 +1,55 @@
+$grid-spc: 12px;
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-right: -$grid-spc;
+  &--padd {
+    padding-left: $grid-spc;
+    padding-right: $grid-spc;
+  }
+
+  &--adaptive {
+    & > .col {
+      display: flex;
+    }
+  }
+  .col {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+
+    &-main {
+      padding-top: 10px;
+      display: block;
+      width: calc(100% - 450px);
+      @media (max-width: 600px) {
+        width: 100%;
+      }
+      @media (max-width: 1600px) {
+        width: 100%;
+      }
+    }
+    &-aside {
+      padding-top: 10px;
+      width: 450px;
+      display: block;
+
+      @media (max-width: 1600px) {
+        width: 100%;
+        display: flex;
+      }
+      @media (max-width: 1100px) {
+        display: block;
+      }
+      @media (max-width: 600px) {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  @media (max-width: 1600px) {
+    display: block;
+  }
+}

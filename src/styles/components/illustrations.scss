@@ -1,0 +1,19 @@
+@import "../base/base.scss";
+
+.illustration {
+  &__aside {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  &__main {
+    width: 450px;
+    min-width: 300px;
+    @media (max-width: 1000px) {
+      display: none;
+    }
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+}

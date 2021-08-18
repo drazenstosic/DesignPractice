@@ -1,0 +1,37 @@
+.profile {
+  display: inline-flex;
+  align-items: center;
+  font-family: Noto Sans JP;
+
+  &__name {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &__image {
+    object-fit: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    @media (max-width: 600px) {
+      width: 50px;
+      height: 50px;
+    }
+
+    &--squared {
+      width: 100px;
+      height: 100px;
+      border-radius: 20%;
+    }
+    &--secondary {
+      border: 1px solid black;
+      @media (max-width: 600px) {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    width: 8%;
+  }
+}

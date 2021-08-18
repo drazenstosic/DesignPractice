@@ -1,16 +1,11 @@
-
-import React from 'react';
-
+import React from "react";
 
 interface Props {
-    children: JSX.Element | JSX.Element[];
+  children: JSX.Element | JSX.Element[];
 }
 
 const MainWrapper = (props: Props) => {
-    return(
-        <div></div>
-        
-    )
-}
+  return <div></div>;
+};
 
 export default MainWrapper;
