@@ -12,6 +12,13 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    span {
+      @media (max-width: 600px) {
+        font-size: 15px;
+      }
+    }
   }
 
   &__header {
@@ -20,6 +27,13 @@
     width: 100%;
     justify-content: space-between;
     padding: 15px;
+
+    span {
+      @media (max-width: 600px) {
+        font-size: 13px;
+        width: 80px;
+      }
+    }
   }
 
   &__row {
@@ -37,6 +51,11 @@
     align-items: center;
     font-family: "Noto Sans JP";
     text-align: center;
+    span {
+      @media (max-width: 600px) {
+        font-size: 14px;
+      }
+    }
   }
 
   &__tag {
@@ -62,6 +81,10 @@
     &--green {
       background-color: #d7f0dd;
       color: #96d7a5;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
     }
   }
 }
